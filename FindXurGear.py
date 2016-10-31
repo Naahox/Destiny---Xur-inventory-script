@@ -1,4 +1,4 @@
-#30ac3bdd233c4240a799e36673605ac3
+
 import requests, os, sys
 
 try:
@@ -14,7 +14,7 @@ except ImportError:
 
 HEADERS = {
 
-    'X-API-Key':    str('30ac3bdd233c4240a799e36673605ac3') #YOUR OWN API KEY
+    'X-API-Key':    str('YOUR_KEY') #YOUR OWN API KEY
 }
 
 
