@@ -1,0 +1,5 @@
+﻿JSON:
+	> https://github.com/DestinyDevs/BungieNetPlatform/wiki/GetPublicXurVendor
+
+Manifest:
+	> https://destinydevs.github.io/BungieNetPlatform/docs/Manifest
