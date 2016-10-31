@@ -21,6 +21,12 @@
 #
 # Author: Konstantin Lepa <konstantin.lepa@gmail.com>
 
+"""
+I AM NOT THE CREATOR OF  THIS .py file
+THIS FILE IS ONLY USED TO CHANGE OUTPUT COLOR
+
+"""
+
 """ANSII Color formatting for output in terminal."""
 
 from __future__ import print_function
