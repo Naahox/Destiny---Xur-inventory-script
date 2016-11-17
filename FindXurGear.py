@@ -4,7 +4,7 @@ import requests, os, sys
 try:
 
     from ItemUsage import *
-    from _init_ import ___init___
+    from parse import options
 
 except ImportError:
 
@@ -23,7 +23,7 @@ xur_url = 'https://www.bungie.net/Platform/Destiny/Advisors/Xur'
 hashType = '6'
 
 
-___init___()
+options()
 
 if __name__ == '__main__':
 
