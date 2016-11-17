@@ -29,9 +29,6 @@ except ImportError as e:
     print '\n\n[!!] Can not import argparse.'
 
 
-
-
-
 def options():
 
     #So here i just created a little dictionary with some info...author and contact.
@@ -76,7 +73,6 @@ def options():
     (options, args) = parser.parse_args()
 
 
-
     """
     I don't like the standard output for parser.print_help(), so i made a very simple straight forward option
     output.
@@ -105,15 +101,3 @@ def options():
         print '\n\n'+str(options.version)
 
     raw_input()
-
-
-
-
-
-
-
-
-
-options()
-
-
