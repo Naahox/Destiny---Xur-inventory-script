@@ -17,7 +17,7 @@ try:
 except ImportError as e:
 
     print logging.getLevelName(log_levels_message[str('critical')])
-    print '\n\n[!!] Can not import OptionParser.'
+    print '\n\n[!!] Can not import OptionParser.\n%s.'%e
 
 try:
 
@@ -26,7 +26,7 @@ try:
 except ImportError as e:
 
     print logging.getLevelName(log_levels_message[str('critical')])
-    print '\n\n[!!] Can not import argparse.'
+    print '\n\n[!!] Can not import argparse.\n%s.'%e
 
 
 def options():
